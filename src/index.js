@@ -57,7 +57,7 @@ import ContactForm from "./blocks/ContactForm";
 import GoogleMap from "./blocks/GoogleMap";
 import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
-import Button from "./blocks/Button"
+import Button from "./blocks/Button";
 
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';

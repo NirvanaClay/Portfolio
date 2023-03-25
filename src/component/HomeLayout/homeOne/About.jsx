@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class About extends Component{
     render(){
         let title = 'About Me',
-        description = "I have a real love for solving problems through programming. It's amazing what is possible using nothing other than logic and syntax. My aim is to become the best coder that I can be. I hope my developing skills as a web developer can be of use to you!"
+        description = "I have a genuine love for solving problems through programming. It's amazing what is possible using nothing other than logic and syntax. My aim is to become the best coder that I can be. Let me be of assistance to you as I grow into my full potential as a developer!"
         // description2 = 'Galaxies enflame and dissolve in the blink of one eye.';
 
         return(

@@ -18,10 +18,10 @@ const Header = ({ portfolioScroll, skillsScroll, aboutScroll, contactScroll }) =
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
                                 <li className="has-droupdown"><a onClick={portfolioScroll}>Projects</a>
-                                    <ul className="submenu">
+                                    {/* <ul className="submenu">
                                         <li><Link to="/blog">Guy's Restaurant</Link></li>
                                         <li><Link to="/blog-details">Expense Tracker</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li className="has-droupdown"><a onClick={skillsScroll}>Skills</a></li>
                                 <li><a onClick={aboutScroll}>About</a></li>

@@ -4,6 +4,7 @@ import Project from './Project'
 
 const Restaurant = <img src="/assets/images/portfolio/restaurant.jpg" alt="Restaurant" />;
 const ExpenseTracker = <img src="/assets/images/portfolio/expenseTracker.jpg" alt="Expense tracker" />;
+const ShowCheck = <img src="/assets/images/portfolio/showcheck.jpg" alt="Showcheck" />;
 
 const techArray = [
     {
@@ -25,6 +26,16 @@ const techArray = [
 
 const PortfolioList = [
     {
+        image: Showcheck,
+        category: 'Development',
+        title: 'Stream Checker',
+        description: 'An application that lets you search for shows and movies and find where they are streaming. Create an account to save and rate your favorite shows.',
+        link: 'https://showcheck.herokuapp.com',
+        tech: [techArray[0], techArray[1], techArray[2]],
+        github: 'https://github.com/NirvanaClay/showcheck',
+        id: 1
+    },
+    {
         image: Restaurant,
         category: 'Development',
         title: 'Restaurant Website',
@@ -32,7 +43,7 @@ const PortfolioList = [
         link: 'https://restaurant18.herokuapp.com',
         tech: [techArray[0], techArray[2]],
         github: 'https://github.com/NirvanaClay/restaurant',
-        id: 1
+        id: 2
     },
     {
         image: ExpenseTracker,
@@ -42,7 +53,7 @@ const PortfolioList = [
         link: 'https://expense-tracker1.herokuapp.com',
         tech: [techArray[0], techArray[1], techArray[2]],
         github: 'https://github.com/NirvanaClay/BillTracker',
-        id: 2
+        id: 3
     }
 ]
 

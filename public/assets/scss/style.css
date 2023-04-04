@@ -11545,55 +11545,6 @@ ul.social-share.social-style--2.color-black li a:hover {
   margin: 0 20px;
 }
 
-.portfolio-tilthover .im_portfolio {
-  margin-top: 30px;
-  cursor: pointer;
-}
-
-.portfolio-tilthover .icons-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 10px 0;
-}
-
-.portfolio-tilthover .icons-container .icon {
-  margin: 0 10px;
-  -webkit-transition: all 5s ease-in-out;
-  transition: all 5s ease-in-out;
-}
-
-.portfolio-tilthover .icons-container .icon img {
-  display: block;
-  width: 60px;
-  height: 55px;
-  margin: 0 auto;
-}
-
-.portfolio-tilthover .github-container a {
-  text-decoration: none;
-}
-
-.portfolio-tilthover .github-container button {
-  width: 125px;
-  height: 40px;
-  display: block;
-  margin: 0 auto;
-  background: #1b0bad;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.portfolio-tilthover .github-container button:hover {
-  background: white;
-  color: blue;
-}
-
 .portfolio-sacousel-inner .slick-list {
   margin-left: -200px;
   margin-right: -200px;
@@ -12129,7 +12080,7 @@ Portfolio Style Three
 
 .im_portfolio .thumbnail_inner .thumbnail img {
   height: 325px;
-  width: 550px;
+  width: 100%;
   -webkit-transition: opacity 0.5s ease 0.25s,-webkit-transform 1s ease;
   transition: opacity 0.5s ease 0.25s,-webkit-transform 1s ease;
   transition: transform 1s ease,opacity 0.5s ease 0.25s;
@@ -17378,9 +17329,68 @@ Footer Styles
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-bottom: 20px;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover {
+  width: calc(50% - 20px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .im_portfolio {
+  width: 100%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px 0;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .icons-container .icon {
+  margin: 0 10px;
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .icons-container .icon img {
+  display: block;
+  width: 60px;
+  height: 55px;
+  margin: 0 auto;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .github-container a {
+  text-decoration: none;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .github-container button {
+  width: 125px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  background: #1b0bad;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .github-container button:hover {
+  background: white;
+  color: blue;
 }
 
 .active-dark .service-area .container .container .row .col-lg-12 .section-title {

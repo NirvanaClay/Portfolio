@@ -292,48 +292,50 @@
 
 // Minimal Portfolio 
 
-.portfolio-tilthover {
-    .im_portfolio {
-        margin-top: 30px;
-        cursor: pointer;
-    }
-    .icons-container {
-        display: flex;
-        position: relative;
-        justify-content: space-around;
-        margin: 10px 0;        
-        .icon {
-          margin: 0 10px;
-          transition: all 5s ease-in-out;
-          img{
-            display: block;
-            width: 60px;
-            height: 55px;
-            margin: 0 auto;
-          }
-        }
-    }
-    .github-container{
-        a{
-            text-decoration: none;
-        }
-        button{
-            width: 125px;
-            height: 40px;
-            display: block;
-            margin: 0 auto;
-            background: #1b0bad;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            &:hover{
-                background: white;
-                color: blue;
-            }
-        }
-    }
-}
+// .portfolio-tilthover {
+//     width: 50%;
+//     .im_portfolio {
+//         width: 100%;
+//         margin-top: 30px;
+//         cursor: pointer;
+//     }
+//     .icons-container {
+//         display: flex;
+//         position: relative;
+//         justify-content: space-around;
+//         margin: 10px 0;        
+//         .icon {
+//           margin: 0 10px;
+//           transition: all 5s ease-in-out;
+//           img{
+//             display: block;
+//             width: 60px;
+//             height: 55px;
+//             margin: 0 auto;
+//           }
+//         }
+//     }
+//     .github-container{
+//         a{
+//             text-decoration: none;
+//         }
+//         button{
+//             width: 125px;
+//             height: 40px;
+//             display: block;
+//             margin: 0 auto;
+//             background: #1b0bad;
+//             color: white;
+//             border: none;
+//             border-radius: 10px;
+//             cursor: pointer;
+//             &:hover{
+//                 background: white;
+//                 color: blue;
+//             }
+//         }
+//     }
+// }
 
 
 
@@ -820,7 +822,8 @@ Portfolio Style Three
         .thumbnail {
             img {
                 height: 325px;
-                width: 550px;
+                // width: 550px;
+                width: 100%;
                 transition: transform 1s ease,opacity 0.5s ease 0.25s;
                 border-radius: 10px;
             }

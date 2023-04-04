@@ -9,8 +9,55 @@
             .projects-list{
                 display: flex;
                 flex-direction: row;
+                flex-wrap: wrap;
                 justify-content: space-around;
                 padding-bottom: 20px;
+                .portfolio-tilthover {
+                    width: calc(50% - 20px); // Adjust the width to account for the space between items
+                    box-sizing: border-box; // Add this line to include padding and border in the element's total width
+                    padding: 10px; // Add this line to create space between items
+                    .im_portfolio {
+                        width: 100%;
+                        margin-top: 30px;
+                        cursor: pointer;
+                    }
+                    .icons-container {
+                        display: flex;
+                        position: relative;
+                        justify-content: space-around;
+                        margin: 10px 0;        
+                        .icon {
+                          margin: 0 10px;
+                          transition: all 5s ease-in-out;
+                          img{
+                            display: block;
+                            width: 60px;
+                            height: 55px;
+                            margin: 0 auto;
+                          }
+                        }
+                    }
+                    .github-container{
+                        a{
+                            text-decoration: none;
+                        }
+                        button{
+                            width: 125px;
+                            height: 40px;
+                            display: block;
+                            margin: 0 auto;
+                            background: #1b0bad;
+                            color: white;
+                            border: none;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            &:hover{
+                                background: white;
+                                color: blue;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

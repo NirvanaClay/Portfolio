@@ -76,12 +76,13 @@ const HomePortfolio = () => {
                 {/* End Slider Area   */}
 
                 {/* Start portfolio Area  */}
-                {/* <div className="rn-portfolio-area bg_color--10 ptb--120 horizontal-spacing"> */}
-                <div className="rn-portfolio-area ptb--120 horizontal-spacing" ref={portfolioRef}>
+                {/* <div className="rn-portfolio-area ptb--120 horizontal-spacing" ref={portfolioRef}> */}
+                <div className="rn-portfolio-area horizontal-spacing" ref={portfolioRef}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="section-title text-center mb--30">
+                                {/* <div className="section-title text-center mb--30"> */}
+                                <div className="section-title text-center">
                                     {/* <span className="subtitle">My complete project</span> */}
                                     <h2 className="title">Projects</h2>
                                 </div>

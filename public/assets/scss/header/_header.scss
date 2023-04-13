@@ -298,16 +298,22 @@
             padding: 30px 100px;
         }
         @media #{$lg-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
+            .header-wrapper{
+                padding-left: 30px;
+                padding-right: 30px;
+            }
         }
         @media #{$sm-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
+            .header-wrapper{
+                padding-left: 30px;
+                padding-right: 30px;
+            }
         }
         @media #{$large-mobile} {
-            padding-left: 15px;
-            padding-right: 15px;
+            .header-wrapper{
+                padding-left: 15px;
+                padding-right: 15px;
+            }
         }
     }
 
@@ -719,4 +725,12 @@
 }
 .header-wrapper.menu-open .humberger-menu span{
     opacity: 0;
+}
+
+@media(max-width: 600px){
+    .active-dark{
+        .header--transparent{
+            padding: 0 20px;
+        }
+    }
 }

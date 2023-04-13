@@ -16956,6 +16956,12 @@ Footer Styles
   color: var(--color-primary);
 }
 
+@media (max-width: 600px) {
+  .about-inner .section-title {
+    width: 50%;
+  }
+}
+
 .about-wrapper .thumbnail {
   position: relative;
   z-index: 2;

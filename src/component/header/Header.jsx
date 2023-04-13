@@ -4,7 +4,6 @@ import { FiX , FiMenu } from "react-icons/fi";
 
 
 const Header = ({ portfolioScroll, skillsScroll, aboutScroll, contactScroll }) => {
-    console.log("This is the Header component.")
         
         return(
             <header className='header-area header--fixed formobile-menu header--transparent'>

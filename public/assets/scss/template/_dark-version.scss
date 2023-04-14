@@ -43,6 +43,9 @@
                             text-decoration: none;
                         }
                         button{
+                            min-width: 125px; 
+                            width: auto;
+                            padding: 5px 10px; 
                             width: 125px;
                             height: 40px;
                             display: block;
@@ -52,9 +55,6 @@
                             border: none;
                             border-radius: 10px;
                             cursor: pointer;
-                            white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
                             &:hover{
                                 background: white;
                                 color: blue;

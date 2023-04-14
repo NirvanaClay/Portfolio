@@ -829,7 +829,6 @@ Portfolio Style Three
             }
         }
     }
-
     .content {
         .inner {
             position: absolute;
@@ -893,6 +892,9 @@ Portfolio Style Three
                 p {
                     color: #ffffff;
                     opacity: 0.7;
+                    @media #{md-layout} {
+                        font-size: .5rem;
+                    }
                 }
             }
 
@@ -925,12 +927,12 @@ Portfolio Style Three
             .inner {
                 .portfolio_heading {
                     // transform: translateY(-62px);
-                    transform: translateY(-70px);
+                    // transform: translateY(-70px);
+                    transform: translateY(-180px);
                     transition: opacity .65s cubic-bezier(.05,.2,.1,1),transform .65s cubic-bezier(.05,.2,.1,1);
-                    
                 }
                 .portfolio_hover {
-                    transform: translateY(0);
+                    transform: translateY(-90px);
                     opacity: 1;
                     transition: opacity .65s cubic-bezier(.05,.2,.1,1) 0.15s,transform .65s cubic-bezier(.05,.2,.1,1) 0.15s;
                 }

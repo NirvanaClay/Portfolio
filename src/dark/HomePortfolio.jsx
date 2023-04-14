@@ -46,7 +46,7 @@ const HomePortfolio = () => {
         }
 
         return(
-            <div className="active-dark"> 
+            <div className="active-dark bg_image--25"> 
                 <Helmet pageTitle="Home Portfolio" />
 
                 {/* Start Header Area  */}
@@ -97,19 +97,17 @@ const HomePortfolio = () => {
                 </div> 
                 {/* End portfolio Area  */}
 
-                <div className="service-area pb--30 bg_color--10" ref={skillsRef}>
+                <div className="service-area bg_color--10" ref={skillsRef}>
                    <div className="container">
                         <ServiceTwo />
                    </div>
                 </div>    
-                <div className="about-area plr--60 pb--60 bg_color--1" ref={aboutRef}>
+                <div className="about-area bg_color--1" ref={aboutRef}>
                     <About />
                 </div>
                 <div className="contact-form--1" ref={contactRef}>
                     <Contact />
                 </div>
-
-
 
                 {/* Start Footer Area  */}
                 {/* <FooterTwo /> */}

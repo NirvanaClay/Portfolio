@@ -17563,6 +17563,21 @@ Footer Styles
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .active-dark .bg_image--25 {
+    min-height: 100vh !important;
+  }
 }
 
 .active-dark .backto-top > div {

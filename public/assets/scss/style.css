@@ -17400,6 +17400,9 @@ Footer Styles
 }
 
 .active-dark .rn-portfolio-area .wrapper .projects-list .portfolio-tilthover .github-container button {
+  min-width: 125px;
+  width: auto;
+  padding: 5px 10px;
   width: 125px;
   height: 40px;
   display: block;

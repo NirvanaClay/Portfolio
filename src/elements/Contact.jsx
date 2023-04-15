@@ -47,58 +47,29 @@ class Contact extends Component{
                 {/* Start Contact Top Area  */}
                 <div className="rn-contact-top-area pb--30 bg_color--5">
                     <div className="container">
-                        {/* <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title mb--30 text-center">
-                                    <span className="subtitle">Our contact address</span>
-                                    <h2 className="title">Quick Contact Address</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div> */}
-                        <div className="row contact-container">
+                        <div className="contact-container">
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-address">
-                                    <div className="icon">
-                                        <FiPhone />
-                                    </div>
-                                    <div className="inner">
-                                        <h4 className="title">Phone Number</h4>
-                                        <p><a href="tel:+444 555 666 777">941-246-8140</a></p>
-                                    </div>
+                            <div className="rn-address">
+                                <div className="icon">
+                                    <FiPhone />
+                                </div>
+                                <div className="inner">
+                                    <h4 className="title">Phone Number</h4>
+                                    <p><a href="tel:+444 555 666 777">941-246-8140</a></p>
                                 </div>
                             </div>
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-address">
-                                    <div className="icon">
-                                        <FiMail />
-                                    </div>
-                                    <div className="inner">
-                                        <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">NirvanaClay@gmail.com</a></p>
-                                    </div>
+                            <div className="rn-address">
+                                <div className="icon">
+                                    <FiMail />
+                                </div>
+                                <div className="inner">
+                                    <h4 className="title">Email Address</h4>
+                                    <p><a href="mailto:admin@gmail.com">NirvanaClay@gmail.com</a></p>
                                 </div>
                             </div>
-                            {/* End Single Address  */}
-
-                            {/* Start Single Address  */}
-                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-address">
-                                    <div className="icon">
-                                        <FiMapPin />
-                                    </div>
-                                    <div className="inner">
-                                        <h4 className="title">Our Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
-                                    </div>
-                                </div>
-                            </div> */}
-                            {/* End Single Address  */}
-
                         </div>
                     </div>
                 </div>

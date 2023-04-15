@@ -929,7 +929,7 @@ Portfolio Style Three
                     // transform: translateY(-62px);
                     transform: translateY(-70px);
                     transition: opacity .65s cubic-bezier(.05,.2,.1,1),transform .65s cubic-bezier(.05,.2,.1,1);
-                    @media(max-width: 768px){
+                    @media(max-width: 992px){
                         transform: translateY(-180px);
                     }
                 }
@@ -937,7 +937,7 @@ Portfolio Style Three
                     transform: translateY(0);
                     opacity: 1;
                     transition: opacity .65s cubic-bezier(.05,.2,.1,1) 0.15s,transform .65s cubic-bezier(.05,.2,.1,1) 0.15s;
-                    @media(max-width: 768px){
+                    @media(max-width: 992px){
                         transform: translateY(-90px);
                     }
                 }

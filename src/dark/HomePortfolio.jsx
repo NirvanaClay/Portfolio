@@ -29,7 +29,6 @@ const HomePortfolio = () => {
         const contactRef = useRef(null)
         
         const portfolioScroll = () => {
-            console.log("Running portfolioScroll")
             portfolioRef.current.scrollIntoView({ behavior: 'smooth' });
         }
 

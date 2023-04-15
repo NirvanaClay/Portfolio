@@ -15454,13 +15454,6 @@ ul.list-style li + li {
           transform: translateY(-5px);
 }
 
-@media (max-width: 600px) {
-  .contact-container {
-    display: block;
-    width: 80%;
-  }
-}
-
 .blog-comment-form .inner .rnform-group input:focus,
 .blog-comment-form .inner .rnform-group textarea:focus {
   border-color: var(--color-primary);

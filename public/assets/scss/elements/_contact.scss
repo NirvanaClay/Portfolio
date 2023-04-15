@@ -119,13 +119,6 @@
     }
 }
 
-@media(max-width: 600px){
-    .contact-container{
-        display: block;
-        width: 80%;
-    }
-}
-
 input,
 textarea {
     @extend %transition;

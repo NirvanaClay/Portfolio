@@ -3,7 +3,11 @@ const express = require("express");
 // const bodyParser = require('body-parser');
 const path = require("path");
 const app = express();
+const forceHttps = require("./force-https");
 const port = process.env.PORT || 8080;
+
+// Apply force HTTPS middleware
+app.use(forceHttps);
 
 app.use(express.static(path.join(__dirname, "build")));
 

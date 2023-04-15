@@ -1,17 +1,3 @@
-const express = require('express');
-const app = express();
-const forceHttps = require('../force-https');
-
-// Apply force HTTPS middleware
-app.use(forceHttps);
-
-// ... your other route handlers and configurations ...
-
-// Start the server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
-
-
 // React Required
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';

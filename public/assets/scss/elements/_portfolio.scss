@@ -824,8 +824,20 @@ Portfolio Style Three
                 height: 325px;
                 // width: 550px;
                 width: 100%;
+                // max-width: 600px;
+                display: block;
+                margin: 0 auto;
                 transition: transform 1s ease,opacity 0.5s ease 0.25s;
                 border-radius: 10px;
+                @media(max-width: 991px){
+                    height: 250px;
+                }
+                @media(max-width: 768px){
+                    height: 325px;
+                }
+                @media(max-width: 414px){
+                    height: 200px;
+                }
             }
         }
     }

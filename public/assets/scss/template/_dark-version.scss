@@ -17,6 +17,9 @@
                     width: calc(50% - 20px);
                     box-sizing: border-box;
                     padding: 10px;
+                    @media(max-width: 768px){
+                        width: calc(100% - 10px);
+                    }
                     .im_portfolio {
                         width: 100%;
                         margin-top: 30px;
@@ -347,21 +350,7 @@
     color: #ffff;
 }
 
-@media(max-width: 768px){
-    .active-dark {
-        .rn-portfolio-area{
-            .wrapper{
-                .projects-list{
-                    .portfolio-tilthover {
-                        width: calc(100% - 10px);
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media(max-width: 600px){
+@media(max-width: 991px){
     .active-dark{
         .horizontal-spacing{
             padding: 0;

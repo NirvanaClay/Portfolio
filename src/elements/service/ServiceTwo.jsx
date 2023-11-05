@@ -5,7 +5,7 @@ const ServiceList = [
     {
         icon: <FiSmartphone />,
         title: 'Responsive Web Development',
-        description: 'Responsive development for HTML websites using CSS or SCSS, making sure the website looks appropriate for all screen sizes.'
+        description: 'Responsive development for HTML websites using SCSS and CSS, making sure the website looks appropriate for all screen sizes.'
     },
     {
         icon: <img src="/assets/images/icons/Javascript-icon.png" />,

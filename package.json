@@ -4,6 +4,11 @@
   "private": true,
   "homepage": "http://imroz.rainbowit.net/",
   "basename": "/",
+  "scripts": {
+    "start": "node --openssl-legacy-provider scripts/start.js",
+    "build": "node --openssl-legacy-provider scripts/build.js",
+    "test": "node scripts/test.js"
+  },
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -84,11 +89,6 @@
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "4.2.0"
-  },
-  "scripts": {
-    "start": "node --openssl-legacy-provider scripts/start.js",
-    "build": "node --openssl-legacy-provider scripts/build.js",
-    "test": "node scripts/test.js"
   },
   "engines": {
     "node": "18.13.0"

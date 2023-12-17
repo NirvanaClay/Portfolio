@@ -10282,6 +10282,12 @@ img.react-parallax-bgimage {
   top: 20px;
 }
 
+@media (max-width: 320px) {
+  .header-area .header-wrapper .small-container {
+    right: 20px;
+  }
+}
+
 .header-area .header-wrapper .small-container .sandwich {
   color: #696969;
   font-size: 36px;

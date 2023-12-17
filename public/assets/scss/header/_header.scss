@@ -755,6 +755,9 @@
             // display: flex;
             // align-items: center;
             // justify-content: flex-end;
+            @media(max-width: 320px){
+                right: 20px;
+            }
             .sandwich{
                 // display: none;
                 color: #696969;
